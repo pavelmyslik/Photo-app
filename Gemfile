@@ -10,7 +10,18 @@ gem "rails", "~> 7.0.3"
 gem "sprockets-rails"
 
 # Use sqlite3 as the database for Active Record
+gem 'bootstrap', '~> 5.1.3'
 
+gem 'jquery-rails'
+
+gem 'hirb'
+
+gem 'devise'
+
+gem "devise-i18n"
+gem "devise-bootstrap5"
+
+gem "font-awesome-rails"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
