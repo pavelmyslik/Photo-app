@@ -25,6 +25,12 @@ gem "font-awesome-rails"
 
 gem "pay"
 
+gem "mini_magick"
+
+gem "carrierwave"
+
+gem "fog"
+
 # To use Stripe, also include:
 gem "stripe"
 

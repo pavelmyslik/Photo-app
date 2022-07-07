@@ -6,6 +6,8 @@ class User < ApplicationRecord
 
   pay_customer stripe_attributes: :stripe_attributes
 
+  has_many :images
+
   def stripe_attributes(pay_customer)
     {
       address: {
