@@ -23,6 +23,11 @@ gem "devise-bootstrap5"
 
 gem "font-awesome-rails"
 
+gem "pay"
+
+# To use Stripe, also include:
+gem "stripe"
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 

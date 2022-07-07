@@ -1,0 +1,10 @@
+<h1>Thanks for your order</h1>
+
+<% @line_items.each do |item| %>
+  <h3><%= item.description %></h3>
+  <% product = Stripe::Product.retrieve(item.price.product) %>
+  <%= image_tag(product.images.first, width: 300) %>
+<% end %>
+
+<h2>Your total was $<%= @session.amount_total.to_f / 100 %></h2>
+

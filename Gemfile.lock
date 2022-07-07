@@ -158,6 +158,8 @@ GEM
     nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
     orm_adapter (0.5.0)
+    pay (4.0.1)
+      rails (>= 6.0.0)
     pg (1.4.1)
     popper_js (2.9.3)
     public_suffix (4.0.7)
@@ -225,6 +227,7 @@ GEM
     sqlite3 (1.4.4)
     stimulus-rails (1.0.4)
       railties (>= 6.0.0)
+    stripe (6.5.0)
     strscan (3.0.3)
     thor (1.2.1)
     tilt (2.0.10)
@@ -271,6 +274,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   jquery-rails
+  pay
   pg
   puma (~> 5.0)
   rails (~> 7.0.3)
@@ -278,6 +282,7 @@ DEPENDENCIES
   sprockets-rails
   sqlite3 (~> 1.4)
   stimulus-rails
+  stripe
   turbo-rails
   tzinfo-data
   web-console
